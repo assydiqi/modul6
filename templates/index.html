@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Classification Form</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2; /* Warna latar belakang halaman */
+        }
+
+        .contact-section {
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 600px; /* Mengurangi lebar container */
+            margin: 0 auto;
+            background-color: #fff; /* Warna latar belakang form */
+            border-radius: 8px; /* Memberi sudut yang lebih lembut pada form */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 30px; /* Mengurangi padding form */
+        }
+
+        .sec-title {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333; /* Warna judul form */
+            padding: 10px;
+            margin-bottom: 20px;
+            background-color: #f6f6f6; /* Warna latar belakang judul form */
+            border-radius: 5px; /* Memberi sudut pada judul form */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .input100 {
+            width: 100%;
+            padding: 15px; /* Menyesuaikan padding input */
+            border: 1px solid #ccc; /* Ubah warna border input */
+            border-radius: 5px;
+            font-size: 16px;
+            color: #555;
+            margin-bottom: 20px;
+            box-sizing: border-box; /* Untuk memastikan padding tidak mempengaruhi lebar input */
+        }
+
+        .input100:focus {
+            outline: none; /* Hapus outline saat input difokuskan */
+            border-color: #6a7ce8;
+            box-shadow: 0 0 5px rgba(106, 124, 232, 0.5); /* Efek shadow saat input difokuskan */
+        }
+
+        .input100::placeholder {
+            color: #999;
+        }
+
+        .symbol-input100 {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            right: 10px;
+            color: #ccc;
+        }
+
+        .login100-form-btn {
+            background-color: #6a7ce8;
+            color: #fff;
+            border: none;
+            padding: 15px 20px; /* Menyesuaikan padding tombol */
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .login100-form-btn:hover {
+            background-color: #556cd6;
+        }
+    </style>
+</head>
+
+<!-- Struktur HTML (tidak diubah) -->
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Form</title>
+    <style>
+        /* CSS styling (tidak diubah) */
+    </style>
+</head>
+
+<body>
+    <section class="contact-section" id="predict1">
+        <div class="container">
+            <div class="title-box centred">
+                <div class="sec-title">Image Classification</div>
+            </div>
+
+            <form class="login100-form validate-form" action="/predict" method="post" enctype="multipart/form-data">
+                <img id="image-preview" alt="Image Preview" src="#" style="width: 300px; height: auto; display: none;" />
+                <div class="wrap-input100 validate-input" data-validate="Image file is required" id="input">
+                    <input class="input100" id="image-source" name="file" onchange="displayImage(this);" type="file"
+                        alt="Input Image" accept="image/jpeg,image/jpg,image/png">
+                    <span class="focus-input100"></span>
+                    <span class="symbol-input100">
+                        <i class="fa fa-file" aria-hidden="true"></i>
+                    </span>
+                </div>
+
+                <div class="container-login100-form-btn">
+                    <button class="login100-form-btn" type="submit">Execute</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <script>
+        function displayImage(input) {
+            var file = input.files[0];
+            var preview = document.getElementById('image-preview');
+
+            if (file) {
+                var reader = new FileReader();
+
+                reader.onload = function (e) {
+                    preview.style.display = 'block';
+                    preview.src = e.target.result;
+                };
+
+                reader.readAsDataURL(file);
+            } else {
+                preview.style.display = 'none';
+                preview.src = "#";
+            }
+        }
+    </script>
+</body>
+
+</html>
+
