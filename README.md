@@ -2,6 +2,7 @@
 Nurhady assydiqi
 # Dataset
 The dataset used in this project contains a total of 2520 images with an equal proportion of images per class: 840 images for rock, paper, and scissors, respectively.
+
 <img src="last/paper.png" width="700"/>
 <img src="last/rock.png" width="700"/>
 <img src="last/scissors.png" width="700"/>
