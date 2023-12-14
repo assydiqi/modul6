@@ -1,9 +1,14 @@
+## Authors
+Nurhady assydiqi
+# Dataset
+<img src="gif/full.gif" width="256"/>
 # Image Classification Web App with Flask
 
 This repository contains a simple web application for image classification built using Flask, allowing users to upload an image and obtain predictions from a pre-trained classification model.
 
 ## Table of Contents
-
+- [Authors](#Authors)
+- [Dataset](#Dataset)
 - [Overview](#overview)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
