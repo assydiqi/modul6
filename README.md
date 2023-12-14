@@ -24,6 +24,9 @@ This repository contains a simple web application for image classification built
 - [Contributing](#contributing)
 - [License](#license)
 
+# traning
+# grafik plot
+
 ## Overview
 
 The application provides a user-friendly interface where users can upload an image and receive predictions regarding the class or category of the uploaded image.
