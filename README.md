@@ -1,5 +1,6 @@
 ## Authors
 Nurhady assydiqi
+
 # Dataset
 The dataset used in this project contains a total of 2520 images with an equal proportion of images per class: 840 images for rock, paper, and scissors, respectively.
 
@@ -7,13 +8,23 @@ The dataset used in this project contains a total of 2520 images with an equal p
 <img src="last/rock.png" width="700"/>
 <img src="last/scissors.png" width="700"/>
 
+# halaman awal
+<img src="last/halamandepan.png" width="700"/>
+
+# Predict Classification Model
+<img src="last/accpaper.png" width="700"/>
+<img src="last/accrock.png" width="700"/>
+<img src="last/accscissor.png" width="700"/>
+
 # Image Classification Web App with Flask
 
 This repository contains a simple web application for image classification built using Flask, allowing users to upload an image and obtain predictions from a pre-trained classification model.
 
 ## Table of Contents
-- [Authors](#Authors)
+- [Authors](##Authors)
 - [Dataset](#Dataset)
+- [traning](#traning)
+- [grafik plot](#grafik plot)
 - [Overview](#overview)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
@@ -22,7 +33,6 @@ This repository contains a simple web application for image classification built
 - [Web Pages](#web-pages)
 - [Notes](#notes)
 - [Contributing](#contributing)
-- [License](#license)
 
 # traning
 <img src="last/latih.png" width="700"/>
