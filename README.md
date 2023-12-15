@@ -25,7 +25,10 @@ This repository contains a simple web application for image classification built
 - [License](#license)
 
 # traning
+<img src="last/latih.png" width="700"/>
+
 # grafik plot
+<img src="last/plt.png" width="700"/>
 
 ## Overview
 
