@@ -34,6 +34,11 @@ This repository contains a simple web application for image classification built
 - [Notes](#notes)
 - [Contributing](#contributing)
 
+# Mobilenet
+
+MobileNet is a neural network architecture specifically developed for image processing and computer vision tasks on mobile devices or those with limited resources. This architecture is designed to be lightweight and efficiently run on devices with low power, such as smartphones, smart cameras, and Internet of Things (IoT) devices.
+<img src="last/mobilenet.png" width="700"/>
+
 # traning
 <img src="last/latih.png" width="700"/>
 
