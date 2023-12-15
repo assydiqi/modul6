@@ -24,7 +24,7 @@ This repository contains a simple web application for image classification built
 - [Authors](##Authors)
 - [Dataset](#Dataset)
 - [traning](#traning)
-- [grafik plot](#grafik plot)
+- [grafikplot](#grafikplot)
 - [Overview](#overview)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
@@ -37,7 +37,7 @@ This repository contains a simple web application for image classification built
 # traning
 <img src="last/latih.png" width="700"/>
 
-# grafik plot
+# grafikplot
 <img src="last/plt.png" width="700"/>
 
 ## Overview
