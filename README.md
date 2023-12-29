@@ -12,9 +12,9 @@ The dataset used in this project contains a total of 2520 images with an equal p
 <img src="last/newawal.png" width="700"/>
 
 # Predict Classification Model
-<img src="last/accpaper.png" width="700"/>
-<img src="last/accrock.png" width="700"/>
-<img src="last/accscissor.png" width="700"/>
+<img src="last/newbelakang.png" width="700"/>
+<img src="last/newbatu.png" width="700"/>
+<img src="last/newkertas.png" width="700"/>
 
 # Image Classification Web App with Flask
 
